@@ -6,7 +6,7 @@ int main(){
     
     double r;
     std::cout<<"Ingrese el radio del circulo"<<std::endl;
-    std:cin>>r;
+    std::cin>>r;
     
     std::cout<<"El radio del círculo es: "<<2*r<<std::endl;
     std::cout<<"El perímetro del círculo es: "<<2*pi*r<<std::endl;
