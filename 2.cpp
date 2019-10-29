@@ -17,13 +17,13 @@ int main(){
     std::cout<<"Ingrese el tercer número"<<std::endl;
     std::cin>>c;
     
-    boolean puede = (a*a + b*b == c*c);
+    bool puede = ((a*a + b*b) == c*c);
      
     if(puede){
-     std::cout<<"sí"   
+     std::cout<<"sí"<<std::endl;   
     }
     else{
-     std::cout<<"no"   
+     std::cout<<"no"<<std::endl;   
     }
     
     return 0;
